@@ -1,0 +1,144 @@
+body{
+    background-color: #f2f2f2;
+    font-family: Cambria, Cochin, Georgia, Times,'Times New Romans', serif;
+    font-size: 16px;
+}
+img{
+    width: 75%;
+}
+
+.banner{
+    background-image: url(disbanner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+form{
+    place-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+/* Form container */
+.login-form-container{
+    place-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #4ACF50;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+.ar-form-container{
+    place-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #4ACF50;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+.ap-form-container{
+    place-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #4ACF50;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+.costcenter-form-container{
+    place-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #4ACF50;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+.index-container{
+    place-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(#4ACF50,#3e8e41);
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.75);
+}
+/* Form title */
+.login-form-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Form input */
+.login-form-input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type=text], input[type=password], input[type=date]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/* Form button */
+button[type=submit]{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e8e41;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Form hover */
+button[type=submit]:hover{
+    opacity: 50%;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=date]:hover{
+    background-color: #D3D3D3;
+}
+
+select:hover{
+    background-color: #D3D3D3;
+}
+
+textarea:hover{
+    background-color: #D3D3D3;
+}

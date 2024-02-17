@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="hilis.css">
+<title>Hehe</title>
+</head>
+<body><center>
+
+	<div class="background">
+
+		<form class="form-container">
+        <h3 class="form-title4">Inbound Transaction</h3>
+        <br>
+
+		</center>
+	<table class="tb1" border="3" cellspacing="0" cellpadding="10" bgcolor="white" class="form-table">
+		<thead>
+			<tr class="form-td" >
+				<td > Item Name: </td>
+				<td >Type:</td>
+				<td > Quantity: </td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="form-option">Ink</td>
+			<td> 
+			<select name="Item" id="Item" class="form-option";>
+            <option value="1" >Black</option>
+            <option value="2" >Blue</option>
+            <option value="3" >Red</option>
+            <option value="4" >Yellow</option>
+            </select> 
+
+            <td><input list="qty" name="browser" id="browser" >
+
+					<datalist id="qty">
+					  <option value="Pieces">
+					  <option value="Boxes">
+					  <option value="Meters">
+					  <option value="Yards">
+					  <option value="Gallon">
+					</datalist>
+					</td>
+        </td>
+
+		</tr>
+		<tr>
+				<td class="form-option">Tarpaulin:</td>
+			<td> 
+			 <select name="Item" id="Item" class="form-option">
+            <option value="1" >Mesh</option>
+            <option value="2" >Poly</option>
+            <option value="3" >Canvas</option>
+            </select><br>
+
+           <td><input list="qty" name="browser" id="browser">
+
+					<datalist id="qty">
+					  <option value="Pieces" >
+					  <option value="Boxes" >
+					  <option value="Meters" >
+					  <option value="Yards" >
+					  <option value="Gallon">
+					</datalist>
+					</td>
+
+        </td>
+		</tr>
+
+		<tr>
+				<td class="form-option">Paint:</td>
+			<td> 
+			 <select name="Item" id="Item" class="form-option">
+            <option value="1">Primary</option>
+            <option value="2">Secondary</option>
+            <option value="3">Teriary</option>
+            </select><br>
+
+            <td><input list="qty" name="browser" id="browser">
+
+					<datalist id="qty" class="form-option">
+					  <option value="Pieces">
+					  <option value="Boxes">
+					  <option value="Meters">
+					  <option value="Yards">
+					  <option value="Gallon">
+					</datalist>
+					</td>
+
+
+        </td>
+		</tr>
+
+		<tr>
+				<td class="form-option">Paste:</td>
+			<td> 
+			 <select name="Item" id="Item"class="form-option">
+            <option value="1">Adhesive Glue</option>
+            <option value="2">Magpow</option>
+            <option value="3">Evergain</option>
+            </select> 
+
+            <td><input list="qty" name="browser" id="browser">
+
+					<datalist id="qty" class="form-option">
+					  <option value="Pieces">
+					  <option value="Boxes">
+					  <option value="Meters">
+					  <option value="Yards">
+					  <option value="Gallon">
+					</datalist>
+					</td>
+
+        </td>
+		</tr>
+
+
+<table border="0" cellspacing="0" cellpadding="5" class="form-table">
+			<tr>
+				<td></td>
+			</tr>
+	</table>
+	<table class="tb2" border="3" cellspacing="0" cellpadding="10" class="form-table">
+		<thead>
+
+					<thead>
+			<tr>
+				<td class="form-td" > Supplier Name: </td>
+			<td class="form-option"><textarea id="Sname" name="Sname" rows="1" cols="20">
+			</textarea></td>
+
+
+			<tr>
+				<td class="form-td" > Amount: </td>
+			<td class="form-option"><textarea id="Sname" name="Sname" rows="1" cols="20" type="number">
+			</textarea></td>
+
+			<tr>
+				<td class="form-td" > Order Time:</td>
+				<td class="form-option"><input type="time" id="time" name="time">
+				<input type="date" id="date" name="date">  </td>
+
+			<tr>
+				<td class="form-td" > Order By: </td>
+			<td class="form-option"><textarea id="Sname" name="Sname" rows="1" cols="20" type="number">
+			</textarea></td>
+
+			<table border="0" cellspacing="0" cellpadding="5">
+			<tr>
+				<td></td>
+			</tr>
+				
+	
+			<tr>
+				<td class="tb3"style="font-family:'Courier New'";>Status</td>
+			<td> 
+			<div class="tb4">
+			<select name="Sts" id="Sts" class="form-option">
+        <option value="1" >Ordered</option>
+        <option value="2" >Packed</option>
+        <option value="3" >In Trasmit</option>
+        <option value="4" >Delivered</option>
+			</div>
+            </select> 
+
+		</tbody>
+	</table>
+	</fieldset>
+
+</form>
+	<br>
+			<div class="tb5">
+			<table><form action="hilis_dis_scm_index.html" method="get">
+			<tr><button class="form-button" >Dashboard</button><br>
+		</form></tr>
+		<form action="hilis_ib.php" method="post">
+		    <input type="submit" value="Submit"></form>
+		</table>
+			</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="sanguir.css">
+</head>
+<body>
+    <br>
+    <form action="sanguir_ap.php" method="post" class="form-container">
+        <div class="ap-form-container">
+            <table align="center" border="0">
+                <th></th>
+                <th>
+                    <fieldset>
+                        <legend><b><h3>Expenses:</h3></b></legend>
+                        <table border="0">
+                            <tr>
+                                <td><label for="expense"><b>Expense Type:</b></label></td>
+                                <td>
+                                    <select name="expense">
+                                        <option>Cost</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Supplier:</b></td>
+                                <td>
+                                    <select name="supplier">
+                                        <option>Samsung</option>
+                                        <option>Google</option>
+                                        <option>Apple</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="exptransdate"><b>Transaction Date:</b></label></td>
+                                <td><input type="date" id="exptransdate" name="exptransdate"></td>
+                            </tr>
+                            <tr>
+                                <td><p><b>Payment Method:</b></p></td>
+                                <td>
+                                    <select name="payment_method">
+                                        <option>Cash</option>
+                                        <option>e-Wallet</option>
+                                        <option>Debit Card</option>
+                                        <option>Credit Card</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><p><b>Cost Center:</b></p></td>
+                                <td>
+                                    <select name="cost_center">
+                                        <option>Cash</option>
+                                        <option>e-Wallet</option>
+                                        <option>Debit Card</option>
+                                        <option>Credit Card</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </th>
+                <th></th>
+            </table>
+            <br>
+            <center>
+                <button type="submit" class="form-button">Submit</button>
+            </center>
+        </div>
+    </form>
+</body>
+</html>

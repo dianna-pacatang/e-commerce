@@ -1,0 +1,283 @@
+/* General Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+      
+body {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+      
+.main {
+        min-height: 100%;
+}
+      
+.main{
+    min-height: 100%;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #777;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header p {
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  header nav ul {
+    margin-top: 20px;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Main Section */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  section h3 {
+    margin-top: 20px;
+  }
+  
+  /* About Us Section */
+  #about-us blockquote {
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Section */
+  #profile blockquote {
+    margin-bottom: 20px;
+  }
+  
+  /* FAQs Section */
+  #faqs h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  /* Contact Section */
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form textarea {
+    width: 100%;
+    height: 100px;
+  }
+  
+  form button {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Additional Styles */
+  
+  /* Link Styles */
+  a:hover {
+    color: #777;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Blockquote Styles */
+  blockquote p {
+    margin: 0;
+  }
+  
+  /* Button Styles */
+  button:hover {
+    background-color: #777;
+  }
+  
+  /* Form Styles */
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Section Title Styles */
+  section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Profile Section Styles */
+  #profile p {
+    font-size: 18px;
+  }
+  
+  /* Footer Styles */
+  footer a {
+    color: #fff;
+  }
+  
+  footer a:hover {
+    color: #ccc;
+  }
+  
+  /* Gradient Background */
+  .background {
+    background: linear-gradient(to bottom right, #5eb8ff, #8bc34a);
+  }
+  
+  /* Border Styles */
+  .border {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Box Shadow */
+  .box-shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Animations */
+  @keyframes slide-up {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-up {
+    animation: slide-up 0.5s ease-out;
+  }
+  
+  /* Additional Styles */
+  
+  /* Example Styles */
+  .example {
+    color: #5eb8ff;
+    background-color: #8bc34a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .example:hover {
+    color: #8bc34a;
+    background-color: #5eb8ff;
+  }
+  
+  .example a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .example a:hover {
+    color: #777;
+  }
+  

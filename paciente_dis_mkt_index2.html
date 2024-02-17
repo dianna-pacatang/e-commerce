@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Data</title>
+    <link rel="stylesheet" type="text/css" href="paciente.css">
+</head>
+<body>
+    <form action="paciente_index2.php" method="post" class="form-container">
+        <br><br>
+        <legend><h1>Order Information</h1></legend>
+        <hr>
+        <h3 class="form-header">Please select requested service:</h3>
+        <input type="checkbox" id="item1" name="services[]" value="Magazine">
+        <label for="item1">Magazine</label><br>
+        <input type="checkbox" id="item2" name="services[]" value="Billboard">
+        <label for="item2">Billboard</label><br>
+        <input type="checkbox" id="item3" name="services[]" value="Custom template">
+        <label for="item3">Custom template</label><br>
+        <input type="checkbox" id="item4" name="services[]" value="Brochure">
+        <label for="item4">Brochure</label><br>
+
+        <h3 class="form-header"> Click this link to view sample services: </h3> 
+ 
+        <a href="paciente_dis_mkt_index2_example.html" target="blank"> Visit this page!</a>
+        
+    <br> <br> 
+    
+     <h3> Click this link to avail our discounts! </h3> 
+    
+    <a href="paciente_dis_mkt_index2_promo.html" target="blank"> Check out our available promotions!</a> 
+    
+    <br> <br>
+     <h3> Free 1 month subscription, after you subscribe today! </h3> 
+    
+            <label for="subscription" class="form-label">Subscription:</label>
+            <select id="subscription" name="subscription" required class="form-input">
+                <option value="">Select a subscription</option>
+                <option value="">Weekly</option>
+                <option value="">Yearly</option>
+                <option value="">Monthly</option>
+                
+            </select>  
+    
+    <br> <br>
+    
+            <label for="payment" class="form-label">Payment Method:</label>
+            <select id="payment" name="payment" required class="form-input">
+                <datalist id="Payment methods">
+                <option value="">Select a payment method</option>
+                <option value="">Credit Card</option>
+                <option value="">Debit Card</option>
+                <option value="">E-wallet</option>
+                <option value="">Bitcoin</option>
+                <option value="">Gold bar</option>
+                <option value="">Cheque</option>
+                <option value="">Currency</option>
+            </select> 
+    
+            <br> <br>
+    
+            <h3> Which is your preferred service provider? </h3> 
+    
+    
+            
+			<input type="radio" id="supplier1" name="supplier" value="Gwen">
+			<label for="supplier1">Gwen</label><br><br>
+			<input type="radio" id="supplier2" name="supplier" value="Eliza">
+			<label for="supplier2">Eliza</label><br><br>
+            <input type="radio" id="supplier3" name="supplier3" value="Zeus">
+            <label for="supp1">Zeus</label> <br> <br>
+            <input type="radio" id="supplier4" name="supplier4" value="Karl">
+            <label for="supp4">Karl</label> <br> <br>
+            <input type="radio" id="supplier5" name="supplier5" value="Caleb">
+            <label for="supp5">Caleb</label> <br> <br>
+            <input type="radio" id="supplier6" name="supplier6" value="Mark">
+            <label for="supp6">Mark</label> <br> <br>
+            <input type="radio" id="supplier7" name="supplier7" value="Johnny">
+            <label for="supp7">Johnny</label> <br> <br> 
+
+			<input type="text" id="customer-number" name="customer-number">
+        
+    
+    <br>
+        
+            <label for"transaction-date" class="form-label">Transaction Date:</label>
+            <input type="date" id="transaction-date" name="transaction-date" required class="form-input"> 
+        
+    <br>
+    <br>
+    
+            <label for "remarks" class="form-label">Remarks:</label>
+            <textarea id="remarks" name="remarks" class="form-input"></textarea>
+            <br> <br>
+    
+            <h4> Customer Number: 001 </h4>
+            <br> <br> 
+    
+    <button onclick="window.location.href='dis_mkt_index1.html';" class="form-button">Go Back </button> 
+    
+    <br>
+            <input type="submit" value="Submit Order" class="form-button"> 
+        
+    
+    </form>
+	<script src="pacientejs.js"></script>
+    </body>
+    </html>
